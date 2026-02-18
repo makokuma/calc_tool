@@ -1,0 +1,32 @@
+#RRJinfo_5km.meta
+#maybe change reading method metafile to ctl file
+
+[data]
+format = fortran_unformatted
+endian = little
+dtype = real4
+
+[gridinfo]
+nx = 721
+ny = 577
+nz = 17
+
+[vars]
+#name   ndims   dims   units    Longname
+UGRD    = 3  (x,y,z)  "m s-1"    "U-Component of Wind"
+VGRD    = 3  (x,y,z)  "m s-1"    "V-Component of Wind"
+TMP     = 3  (x,y,z)  "K"        "Temperature"
+DEPR    = 3  (x,y,z)  "K"        "Dew Point Depression"
+HGT     = 3  (x,y,z)  "gpm"      "Geopotential Height"
+DZDT    = 3  (x,y,z)  "m s-1"    "Vertical Velocity (Geometric)"
+VVEL    = 3  (x,y,z)  "Pa s-1"   "Vertical Velocity (Pressure)" 
+RELV    = 3  (x,y,z)  "s-1"      "Relative Vorticity"
+CDCA    = 3  (x,y,z)  "%"        "Cloud Amount"
+TOTCON  = 3  (x,y,z)  "kg kg-1"  "Total Condensate"
+MIXR    = 3  (x,y,z)  "kg kg-1"  "Humidity Mixing Ratio"
+CLMR    = 3  (x,y,z)  "kg kg-1"  "Cloud Mixing Ratio"
+CIMIXR  = 3  (x,y,z)  "kg kg-1"  "Cloud Ice Mixing Ratio"
+RWMR    = 3  (x,y,z)  "kg kg-1"  "Rain Mixing Ratio"
+SNMR    = 3  (x,y,z)  "kg kg-1"  "Rain Mixing Ratio"
+GRLE    = 3  (x,y,z)  "kg kg-1"  "Graupel"
+
