@@ -1,0 +1,28 @@
+&io
+      input_dir  ="/mnt/jet12/makoto/extract_senjo/environment/calc_tool/data/5km"
+      input_meta ="/mnt/jet12/makoto/extract_senjo/environment/calc_tool/data/5km/RRJinfo_5km.meta"   ! 省略して dat と同名推定でもOK
+      output_dir = "../output"
+
+      !data name format
+      file_prefix = "fcst_prs_"
+      file_suffix = ".bin"
+/
+
+&select
+      vars_all = "UGRD","VGRD","TMP","DZDT"     !読む変数（空なら全部読む、などルール化）
+      nvars=4
+      z_start = 1
+      z_end   = 17
+
+      !date
+      start_date = "2000040100"
+      end_date = "2000043000"
+      dt_hours = 1
+/
+
+&process
+      do_time_mean = .true.
+      do_interp    = .false.
+      log_level    = 2
+/
+
