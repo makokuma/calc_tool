@@ -1,0 +1,13 @@
+df1_i,reason,df1_dtst,df1_dten,df1_lat,df1_lon
+0,time ok but no position candidates,2002071011,2002071016,38.1,141.62
+4,time ok but no position candidates,2019101215,2019101220,39.8,142.0
+5,no time candidates,2022080305,2022080310,40.45,139.62
+6,no time candidates,2022080904,2022080909,40.55,139.94
+7,no time candidates,2024092002,2024092007,39.75,139.0
+9,time ok but no position candidates,2002071102,2002071107,38.25,141.0
+15,time ok but no position candidates,2013080906,2013080912,40.3,140.38
+26,time ok but no position candidates,2019101214,2019101301,39.85,141.94
+27,no time candidates,2022080315,2022080321,37.6,140.19
+28,no time candidates,2022080909,2022080914,40.35,140.06
+29,no time candidates,2022081221,2022081303,40.15,140.62
+30,no time candidates,2023081204,2023081209,39.35,141.81

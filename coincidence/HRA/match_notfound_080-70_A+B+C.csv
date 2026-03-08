@@ -1,0 +1,3 @@
+df1_i,reason,df1_dtst,df1_dten,df1_lat,df1_lon,df1_hrid
+4,time&pos ok but overlap/center fail,2019101215,2019101220,39.8,142.0,HR00583
+9,time ok but no position candidates,2002071102,2002071107,38.25,141.0,

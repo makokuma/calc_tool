@@ -1,0 +1,771 @@
+================================================================================
+[HIT] i=0 lat=38.1 lon=141.62  -> df2 matches: 1
+- df1 row:
+ID                         3
+hrid                 HR00282
+dtst              2002071011
+dten              2002071016
+nt                         5
+lat                     38.1
+lon                   141.62
+angle                   28.0
+ratio                   3.07
+len                    80.01
+r3max                  120.0
+ng                        54
+area                    1642
+nam                      NaN
+nam_ja                   NaN
+id                       NaN
+overlap_tohoku          True
+- df2 rows:
+ ID    hrid       dtst       dten  nt  lat    lon  angle  ratio   len  r3max  ng  area nam nam_ja  id  overlap_tohoku
+  6 HR00370 2002071010 2002071017   7 38.1 141.62   24.0   2.26 106.5  120.0  96  2919 NaN    NaN NaN            True
+================================================================================
+[HIT] i=1 lat=37.45 lon=141.19  -> df2 matches: 1
+- df1 row:
+ID                        10
+hrid                 HR00299
+dtst              2009100803
+dten              2009100809
+nt                         6
+lat                    37.45
+lon                   141.19
+angle                  173.0
+ratio                   2.52
+len                    82.51
+r3max                  150.1
+ng                        76
+area                    2328
+nam                      NaN
+nam_ja                   NaN
+id                       NaN
+overlap_tohoku          True
+- df2 rows:
+ ID    hrid       dtst       dten  nt   lat    lon  angle  ratio    len  r3max  ng  area nam nam_ja  id  overlap_tohoku
+ 15 HR00496 2009100803 2009100809   6 37.45 141.19  178.0   3.47 119.82  150.1 117  3581 NaN    NaN NaN            True
+================================================================================
+[HIT] i=2 lat=38.5 lon=139.38  -> df2 matches: 1
+- df1 row:
+ID                        35
+hrid                 HR00349
+dtst              2018080521
+dten              2018080602
+nt                         5
+lat                     38.5
+lon                   139.38
+angle                   94.0
+ratio                   4.04
+len                    75.87
+r3max                  192.1
+ng                        39
+area                    1180
+nam                      NaN
+nam_ja                   NaN
+id                       NaN
+overlap_tohoku          True
+- df2 rows:
+ ID    hrid       dtst       dten  nt  lat    lon  angle  ratio  len  r3max  ng  area nam nam_ja  id  overlap_tohoku
+ 48 HR00522 2018080520 2018080602   6 38.5 139.38   98.0   2.78 80.8  192.1  62  1875 NaN    NaN NaN            True
+================================================================================
+[HIT] i=3 lat=39.7 lon=139.56  -> df2 matches: 1
+- df1 row:
+ID                        37
+hrid                 HR00401
+dtst              2019081003
+dten              2019081009
+nt                         6
+lat                     39.7
+lon                   139.56
+angle                  114.0
+ratio                   2.56
+len                   104.62
+r3max                  169.1
+ng                        93
+area                    2775
+nam                      NaN
+nam_ja                   NaN
+id                       NaN
+overlap_tohoku          True
+- df2 rows:
+ ID    hrid       dtst       dten  nt  lat    lon  angle  ratio    len  r3max  ng  area nam nam_ja  id  overlap_tohoku
+ 51 HR00608 2019081002 2019081009   7 39.7 139.56  119.0   2.87 144.02  181.9 139  4148 NaN    NaN NaN            True
+================================================================================
+[NOT FOUND] i=4 lat=39.8 lon=142.0
+- df1 row:
+ID                        40
+hrid                 HR00583
+dtst              2019101215
+dten              2019101220
+nt                         5
+lat                     39.8
+lon                    142.0
+angle                  170.0
+ratio                   2.75
+len                   153.43
+r3max                  208.5
+ng                       383
+area                   11631
+nam                      NaN
+nam_ja                   NaN
+id                       NaN
+overlap_tohoku          True
+================================================================================
+[HIT] i=5 lat=40.45 lon=139.62  -> df2 matches: 1
+- df1 row:
+ID                        44
+hrid                 HR00809
+dtst              2022080305
+dten              2022080310
+nt                         5
+lat                    40.45
+lon                   139.62
+angle                  105.0
+ratio                   2.38
+len                   186.74
+r3max                  173.9
+ng                       292
+area                    8605
+nam                      NaN
+nam_ja                   NaN
+id                       NaN
+overlap_tohoku          True
+- df2 rows:
+ ID    hrid       dtst       dten  nt   lat    lon  angle  ratio    len  r3max  ng  area nam nam_ja  id  overlap_tohoku
+ 62 HR01148 2022080305 2022080311   6 40.45 139.62   96.0    2.7 295.03  173.9 519 15313 NaN    NaN NaN            True
+================================================================================
+[HIT] i=6 lat=40.55 lon=139.94  -> df2 matches: 2
+- df1 row:
+ID                        48
+hrid                 HR00862
+dtst              2022080904
+dten              2022080909
+nt                         5
+lat                    40.55
+lon                   139.94
+angle                   73.0
+ratio                   3.09
+len                    91.52
+r3max                  148.7
+ng                        66
+area                    1940
+nam                      NaN
+nam_ja                   NaN
+id                       NaN
+overlap_tohoku          True
+- df2 rows:
+ ID    hrid       dtst       dten  nt   lat    lon  angle  ratio    len  r3max  ng  area nam nam_ja  id  overlap_tohoku
+ 68 HR01230 2022080904 2022080909   5 40.55 139.94   70.0   2.83 109.35  148.7  86  2528 NaN    NaN NaN            True
+ 69 HR01231 2022080907 2022080916   9 40.55 139.94   75.0   4.34 278.72  154.3 372 10971 NaN    NaN NaN            True
+================================================================================
+[HIT] i=7 lat=39.75 lon=139.0  -> df2 matches: 1
+- df1 row:
+ID                        59
+hrid                 HR01035
+dtst              2024092002
+dten              2024092007
+nt                         5
+lat                    39.75
+lon                    139.0
+angle                  104.0
+ratio                   4.79
+len                   177.16
+r3max                  152.8
+ng                       148
+area                    4414
+nam                      NaN
+nam_ja                   NaN
+id                       NaN
+overlap_tohoku          True
+- df2 rows:
+ ID    hrid       dtst       dten  nt   lat   lon  angle  ratio    len  r3max  ng  area nam nam_ja  id  overlap_tohoku
+ 85 HR01616 2024092000 2024092007   7 39.75 139.0  100.0   4.53 254.11  152.8 277  8254 NaN    NaN NaN            True
+================================================================================
+[HIT] i=8 lat=38.35 lon=141.5  -> df2 matches: 1
+- df1 row:
+ID                         1
+hrid                 HR00171
+dtst              2000070804
+dten              2000070811
+nt                         7
+lat                    38.35
+lon                    141.5
+angle                   22.0
+ratio                   3.33
+len                   158.81
+r3max                  170.0
+ng                       107
+area                    3259
+nam               Miyagi Ken
+nam_ja                   宮城県
+id                       4.0
+overlap_tohoku          True
+- df2 rows:
+ ID    hrid       dtst       dten  nt   lat   lon  angle  ratio    len  r3max  ng  area        nam nam_ja  id  overlap_tohoku
+  1 HR00274 2000070804 2000070812   8 38.35 141.5   19.0   3.17 167.65  170.0 137  4176 Miyagi Ken    宮城県 4.0            True
+================================================================================
+[NOT FOUND] i=9 lat=38.25 lon=141.0
+- df1 row:
+ID                         4
+hrid                 HR00294
+dtst              2002071102
+dten              2002071107
+nt                         5
+lat                    38.25
+lon                    141.0
+angle                   19.0
+ratio                   2.71
+len                   190.16
+r3max                  172.0
+ng                       217
+area                    6586
+nam               Miyagi Ken
+nam_ja                   宮城県
+id                       4.0
+overlap_tohoku          True
+================================================================================
+[HIT] i=10 lat=37.85 lon=140.69  -> df2 matches: 1
+- df1 row:
+ID                            7
+hrid                    HR00461
+dtst                 2007090519
+dten                 2007090600
+nt                            5
+lat                       37.85
+lon                      140.69
+angle                       0.0
+ratio                      2.88
+len                       66.18
+r3max                     152.5
+ng                           36
+area                       1098
+nam               Fukushima Ken
+nam_ja                      福島県
+id                          7.0
+overlap_tohoku             True
+- df2 rows:
+ ID    hrid       dtst       dten  nt   lat    lon  angle  ratio   len  r3max  ng  area           nam nam_ja  id  overlap_tohoku
+ 11 HR00703 2007090518 2007090600   6 37.85 140.69  177.0   3.97 94.53  152.5  51  1558 Fukushima Ken    福島県 7.0            True
+================================================================================
+[NOT FOUND] i=11 lat=39.15 lon=140.88
+- df1 row:
+ID                         8
+hrid                 HR00478
+dtst              2007090705
+dten              2007090712
+nt                         7
+lat                    39.15
+lon                   140.88
+angle                  165.0
+ratio                   2.69
+len                    79.26
+r3max                  157.7
+ng                        42
+area                    1260
+nam                Iwate Ken
+nam_ja                   岩手県
+id                       3.0
+overlap_tohoku          True
+================================================================================
+[HIT] i=12 lat=37.1 lon=140.62  -> df2 matches: 1
+- df1 row:
+ID                            9
+hrid                    HR00346
+dtst                 2008082822
+dten                 2008082903
+nt                            5
+lat                        37.1
+lon                      140.62
+angle                      14.0
+ratio                      6.13
+len                      107.66
+r3max                     165.0
+ng                           49
+area                       1507
+nam               Fukushima Ken
+nam_ja                      福島県
+id                          7.0
+overlap_tohoku             True
+- df2 rows:
+ ID    hrid       dtst       dten  nt  lat    lon  angle  ratio    len  r3max  ng  area           nam nam_ja  id  overlap_tohoku
+ 14 HR00551 2008082822 2008082903   5 37.1 140.62   17.0   6.83 126.88  165.0  63  1936 Fukushima Ken    福島県 7.0            True
+================================================================================
+[HIT] i=13 lat=38.95 lon=140.75  -> df2 matches: 1
+- df1 row:
+ID                        15
+hrid                 HR00578
+dtst              2012093022
+dten              2012100103
+nt                         5
+lat                    38.95
+lon                   140.75
+angle                    6.0
+ratio                   4.74
+len                   147.36
+r3max                  165.9
+ng                       112
+area                    3368
+nam               Miyagi Ken
+nam_ja                   宮城県
+id                       4.0
+overlap_tohoku          True
+- df2 rows:
+ ID    hrid       dtst       dten  nt   lat    lon  angle  ratio    len  r3max  ng  area        nam nam_ja  id  overlap_tohoku
+ 22 HR00851 2012093022 2012100103   5 38.95 140.75    8.0   4.61 158.25  165.9 138  4151 Miyagi Ken    宮城県 4.0            True
+================================================================================
+[HIT] i=14 lat=38.2 lon=139.88  -> df2 matches: 1
+- df1 row:
+ID                          16
+hrid                   HR00180
+dtst                2013072216
+dten                2013072221
+nt                           5
+lat                       38.2
+lon                     139.88
+angle                    125.0
+ratio                     3.28
+len                      74.62
+r3max                    156.8
+ng                          38
+area                      1156
+nam               Yamagata Ken
+nam_ja                     山形県
+id                         6.0
+overlap_tohoku            True
+- df2 rows:
+ ID    hrid       dtst       dten  nt  lat    lon  angle  ratio   len  r3max  ng  area          nam nam_ja  id  overlap_tohoku
+ 25 HR00315 2013072216 2013072221   5 38.2 139.88  122.0    3.0 81.83  156.8  54  1642 Yamagata Ken    山形県 6.0            True
+================================================================================
+[HIT] i=15 lat=40.3 lon=140.38  -> df2 matches: 1
+- df1 row:
+ID                        20
+hrid                 HR00235
+dtst              2013080906
+dten              2013080912
+nt                         6
+lat                     40.3
+lon                   140.38
+angle                  115.0
+ratio                    2.1
+len                    88.17
+r3max                  283.7
+ng                        72
+area                    2126
+nam                Akita Ken
+nam_ja                   秋田県
+id                       5.0
+overlap_tohoku          True
+- df2 rows:
+ ID    hrid       dtst       dten  nt  lat    lon  angle  ratio   len  r3max  ng  area       nam nam_ja  id  overlap_tohoku
+ 28 HR00403 2013080904 2013080912   8 40.3 140.38  131.0   2.08 97.81  283.7 115  3393 Akita Ken    秋田県 5.0            True
+================================================================================
+[HIT] i=16 lat=39.65 lon=140.94  -> df2 matches: 1
+- df1 row:
+ID                        21
+hrid                 HR00240
+dtst              2013080907
+dten              2013080914
+nt                         7
+lat                    39.65
+lon                   140.94
+angle                  108.0
+ratio                   2.68
+len                    104.6
+r3max                  207.3
+ng                        84
+area                    2504
+nam                Iwate Ken
+nam_ja                   岩手県
+id                       3.0
+overlap_tohoku          True
+- df2 rows:
+ ID    hrid       dtst       dten  nt   lat    lon  angle  ratio    len  r3max  ng  area       nam nam_ja  id  overlap_tohoku
+ 29 HR00405 2013080906 2013080914   8 39.65 140.94  112.0   3.08 117.71  207.3  95  2831 Iwate Ken    岩手県 3.0            True
+================================================================================
+[HIT] i=17 lat=38.5 lon=140.75  -> df2 matches: 1
+- df1 row:
+ID                        24
+hrid                 HR00428
+dtst              2015091020
+dten              2015091104
+nt                         8
+lat                     38.5
+lon                   140.75
+angle                    2.0
+ratio                   2.58
+len                    125.4
+r3max                  151.1
+ng                       129
+area                    3898
+nam               Miyagi Ken
+nam_ja                   宮城県
+id                       4.0
+overlap_tohoku          True
+- df2 rows:
+ ID    hrid       dtst       dten  nt  lat    lon  angle  ratio   len  r3max  ng  area        nam nam_ja  id  overlap_tohoku
+ 35 HR00650 2015091020 2015091104   8 38.5 140.75    5.0   2.55 131.9  151.1 154  4652 Miyagi Ken    宮城県 4.0            True
+================================================================================
+[HIT] i=18 lat=39.7 lon=141.75  -> df2 matches: 1
+- df1 row:
+ID                        26
+hrid                 HR00438
+dtst              2016083014
+dten              2016083019
+nt                         5
+lat                     39.7
+lon                   141.75
+angle                  178.0
+ratio                   2.83
+len                   147.22
+r3max                  179.8
+ng                       158
+area                    4700
+nam                Iwate Ken
+nam_ja                   岩手県
+id                       3.0
+overlap_tohoku          True
+- df2 rows:
+ ID    hrid       dtst       dten  nt  lat    lon  angle  ratio   len  r3max  ng  area       nam nam_ja  id  overlap_tohoku
+ 38 HR00693 2016083013 2016083020   7 39.7 141.75    2.0   2.62 163.1  179.8 204  6068 Iwate Ken    岩手県 3.0            True
+================================================================================
+[HIT] i=19 lat=39.6 lon=142.0  -> df2 matches: 1
+- df1 row:
+ID                        28
+hrid                 HR00475
+dtst              2016090823
+dten              2016090904
+nt                         5
+lat                     39.6
+lon                    142.0
+angle                   18.0
+ratio                   3.62
+len                    85.65
+r3max                  142.7
+ng                        44
+area                    1313
+nam                Iwate Ken
+nam_ja                   岩手県
+id                       3.0
+overlap_tohoku          True
+- df2 rows:
+ ID    hrid       dtst       dten  nt  lat   lon  angle  ratio    len  r3max  ng  area       nam nam_ja  id  overlap_tohoku
+ 39 HR00768 2016090823 2016090904   5 39.6 142.0   31.0   3.82 101.17  142.7  65  1940 Iwate Ken    岩手県 3.0            True
+================================================================================
+[HIT] i=20 lat=39.35 lon=140.44  -> df2 matches: 1
+- df1 row:
+ID                        30
+hrid                 HR00278
+dtst              2017072214
+dten              2017072221
+nt                         7
+lat                    39.35
+lon                   140.44
+angle                  101.0
+ratio                   2.44
+len                    54.87
+r3max                  162.8
+ng                        32
+area                     957
+nam                Akita Ken
+nam_ja                   秋田県
+id                       5.0
+overlap_tohoku          True
+- df2 rows:
+ ID    hrid       dtst       dten  nt   lat    lon  angle  ratio   len  r3max  ng  area       nam nam_ja  id  overlap_tohoku
+ 42 HR00399 2017072215 2017072221   6 39.35 140.44  100.0   3.54 60.61  162.8  33   987 Akita Ken    秋田県 5.0            True
+================================================================================
+[HIT] i=21 lat=39.65 lon=140.44  -> df2 matches: 1
+- df1 row:
+ID                        31
+hrid                 HR00279
+dtst              2017072300
+dten              2017072306
+nt                         6
+lat                    39.65
+lon                   140.44
+angle                   53.0
+ratio                   2.56
+len                    71.86
+r3max                  136.1
+ng                        52
+area                    1548
+nam                Akita Ken
+nam_ja                   秋田県
+id                       5.0
+overlap_tohoku          True
+- df2 rows:
+ ID    hrid       dtst       dten  nt   lat    lon  angle  ratio   len  r3max  ng  area       nam nam_ja  id  overlap_tohoku
+ 43 HR00400 2017072223 2017072306   7 39.65 140.44   66.0   1.91 91.88  136.1  95  2826 Akita Ken    秋田県 5.0            True
+================================================================================
+[HIT] i=22 lat=39.35 lon=141.94  -> df2 matches: 1
+- df1 row:
+ID                        32
+hrid                 HR00453
+dtst              2017091722
+dten              2017091804
+nt                         6
+lat                    39.35
+lon                   141.94
+angle                   26.0
+ratio                   4.54
+len                   120.61
+r3max                  144.3
+ng                        69
+area                    2066
+nam                Iwate Ken
+nam_ja                   岩手県
+id                       3.0
+overlap_tohoku          True
+- df2 rows:
+ ID    hrid       dtst       dten  nt   lat    lon  angle  ratio    len  r3max  ng  area       nam nam_ja  id  overlap_tohoku
+ 44 HR00664 2017091722 2017091804   6 39.35 141.94   25.0   3.72 126.19  144.3  95  2844 Iwate Ken    岩手県 3.0            True
+================================================================================
+[HIT] i=23 lat=38.95 lon=139.94  -> df2 matches: 1
+- df1 row:
+ID                          33
+hrid                   HR00342
+dtst                2018080511
+dten                2018080516
+nt                           5
+lat                      38.95
+lon                     139.94
+angle                     99.0
+ratio                     2.28
+len                      70.26
+r3max                    163.1
+ng                          46
+area                      1385
+nam               Yamagata Ken
+nam_ja                     山形県
+id                         6.0
+overlap_tohoku            True
+- df2 rows:
+ ID    hrid       dtst       dten  nt   lat    lon  angle  ratio    len  r3max  ng  area          nam nam_ja  id  overlap_tohoku
+ 46 HR00515 2018080511 2018080516   5 38.95 139.94   98.0   3.47 117.75  163.1  69  2076 Yamagata Ken    山形県 6.0            True
+================================================================================
+[HIT] i=24 lat=38.65 lon=140.12  -> df2 matches: 1
+- df1 row:
+ID                          34
+hrid                   HR00347
+dtst                2018080522
+dten                2018080605
+nt                           7
+lat                      38.65
+lon                     140.12
+angle                    101.0
+ratio                     2.32
+len                      54.83
+r3max                    145.9
+ng                          31
+area                       936
+nam               Yamagata Ken
+nam_ja                     山形県
+id                         6.0
+overlap_tohoku            True
+- df2 rows:
+ ID    hrid       dtst       dten  nt   lat    lon  angle  ratio   len  r3max  ng  area          nam nam_ja  id  overlap_tohoku
+ 47 HR00519 2018080522 2018080605   7 38.65 140.12  100.0   2.33 64.62  145.9  46  1389 Yamagata Ken    山形県 6.0            True
+================================================================================
+[HIT] i=25 lat=39.3 lon=141.75  -> df2 matches: 1
+- df1 row:
+ID                        38
+hrid                 HR00453
+dtst              2019082723
+dten              2019082805
+nt                         6
+lat                     39.3
+lon                   141.75
+angle                   14.0
+ratio                   2.01
+len                    67.27
+r3max                  138.7
+ng                        47
+area                    1407
+nam                Iwate Ken
+nam_ja                   岩手県
+id                       3.0
+overlap_tohoku          True
+- df2 rows:
+ ID    hrid       dtst       dten  nt  lat    lon  angle  ratio   len  r3max  ng  area       nam nam_ja  id  overlap_tohoku
+ 52 HR00702 2019082722 2019082805   7 39.3 141.75   13.0   1.88 68.51  138.7  62  1856 Iwate Ken    岩手県 3.0            True
+================================================================================
+[HIT] i=26 lat=39.85 lon=141.94  -> df2 matches: 1
+- df1 row:
+ID                        39
+hrid                 HR00582
+dtst              2019101214
+dten              2019101301
+nt                        11
+lat                    39.85
+lon                   141.94
+angle                   26.0
+ratio                   3.32
+len                   497.42
+r3max                  263.6
+ng                      1125
+area                   34222
+nam                Iwate Ken
+nam_ja                   岩手県
+id                       3.0
+overlap_tohoku          True
+- df2 rows:
+ ID    hrid       dtst       dten  nt   lat    lon  angle  ratio    len  r3max   ng  area       nam nam_ja  id  overlap_tohoku
+ 53 HR00912 2019101214 2019101305  15 39.85 141.94   27.0   2.99 625.88  263.6 1821 55682 Iwate Ken    岩手県 3.0            True
+================================================================================
+[HIT] i=27 lat=37.6 lon=140.19  -> df2 matches: 1
+- df1 row:
+ID                           46
+hrid                    HR00818
+dtst                 2022080315
+dten                 2022080321
+nt                            6
+lat                        37.6
+lon                      140.19
+angle                     131.0
+ratio                      2.91
+len                       65.57
+r3max                     153.5
+ng                           37
+area                       1133
+nam               Fukushima Ken
+nam_ja                      福島県
+id                          7.0
+overlap_tohoku             True
+- df2 rows:
+ ID    hrid       dtst       dten  nt  lat    lon  angle  ratio   len  r3max  ng  area           nam nam_ja  id  overlap_tohoku
+ 65 HR01156 2022080315 2022080321   6 37.6 140.19  128.0   2.65 70.31  153.5  50  1531 Fukushima Ken    福島県 7.0            True
+================================================================================
+[NOT FOUND] i=28 lat=40.35 lon=140.06
+- df1 row:
+ID                        49
+hrid                 HR00866
+dtst              2022080909
+dten              2022080914
+nt                         5
+lat                    40.35
+lon                   140.06
+angle                   73.0
+ratio                   7.81
+len                   254.34
+r3max                  149.6
+ng                       212
+area                    6258
+nam                Akita Ken
+nam_ja                   秋田県
+id                       5.0
+overlap_tohoku          True
+================================================================================
+[HIT] i=29 lat=40.15 lon=140.62  -> df2 matches: 1
+- df1 row:
+ID                        50
+hrid                 HR00879
+dtst              2022081221
+dten              2022081303
+nt                         6
+lat                    40.15
+lon                   140.62
+angle                   63.0
+ratio                   6.92
+len                    93.83
+r3max                  177.2
+ng                        35
+area                    1036
+nam                Akita Ken
+nam_ja                   秋田県
+id                       5.0
+overlap_tohoku          True
+- df2 rows:
+ ID    hrid       dtst       dten  nt   lat    lon  angle  ratio    len  r3max  ng  area       nam nam_ja  id  overlap_tohoku
+ 70 HR01259 2022081221 2022081303   6 40.15 140.62   61.0   6.85 101.09  177.2  43  1273 Akita Ken    秋田県 5.0            True
+================================================================================
+[HIT] i=30 lat=39.35 lon=141.81  -> df2 matches: 1
+- df1 row:
+ID                        52
+hrid                 HR00569
+dtst              2023081204
+dten              2023081209
+nt                         5
+lat                    39.35
+lon                   141.81
+angle                  109.0
+ratio                   2.43
+len                    67.57
+r3max                  156.5
+ng                        47
+area                    1405
+nam                Iwate Ken
+nam_ja                   岩手県
+id                       3.0
+overlap_tohoku          True
+- df2 rows:
+ ID    hrid       dtst       dten  nt   lat    lon  angle  ratio  len  r3max  ng  area       nam nam_ja  id  overlap_tohoku
+ 73 HR00845 2023081204 2023081210   6 39.35 141.81  108.0   2.76 88.1  156.5  65  1943 Iwate Ken    岩手県 3.0            True
+================================================================================
+[HIT] i=31 lat=39.0 lon=139.94  -> df2 matches: 1
+- df1 row:
+ID                          55
+hrid                   HR00639
+dtst                2024072507
+dten                2024072514
+nt                           7
+lat                       39.0
+lon                     139.94
+angle                    125.0
+ratio                      1.6
+len                     103.85
+r3max                    174.7
+ng                         127
+area                      3818
+nam               Yamagata Ken
+nam_ja                     山形県
+id                         6.0
+overlap_tohoku            True
+- df2 rows:
+ ID    hrid       dtst       dten  nt  lat    lon  angle  ratio    len  r3max  ng  area          nam nam_ja  id  overlap_tohoku
+ 77 HR00996 2024072506 2024072515   9 39.0 139.94   82.0   1.31 112.78  174.7 186  5596 Yamagata Ken    山形県 6.0            True
+================================================================================
+[HIT] i=32 lat=38.8 lon=140.06  -> df2 matches: 1
+- df1 row:
+ID                          56
+hrid                   HR00642
+dtst                2024072519
+dten                2024072601
+nt                           6
+lat                       38.8
+lon                     140.06
+angle                    106.0
+ratio                     2.21
+len                      77.35
+r3max                    167.5
+ng                          60
+area                      1810
+nam               Yamagata Ken
+nam_ja                     山形県
+id                         6.0
+overlap_tohoku            True
+- df2 rows:
+ ID    hrid       dtst       dten  nt  lat    lon  angle  ratio   len  r3max  ng  area          nam nam_ja  id  overlap_tohoku
+ 78 HR01004 2024072519 2024072601   6 38.8 140.06  106.0   2.03 78.56  167.5  78  2353 Yamagata Ken    山形県 6.0            True
+================================================================================
+[HIT] i=33 lat=40.0 lon=140.19  -> df2 matches: 1
+- df1 row:
+ID                        57
+hrid                 HR00645
+dtst              2024072519
+dten              2024072600
+nt                         5
+lat                     40.0
+lon                   140.19
+angle                  109.0
+ratio                   2.52
+len                    49.96
+r3max                  179.1
+ng                        27
+area                     800
+nam                Akita Ken
+nam_ja                   秋田県
+id                       5.0
+overlap_tohoku          True
+- df2 rows:
+ ID    hrid       dtst       dten  nt  lat    lon  angle  ratio   len  r3max  ng  area       nam nam_ja  id  overlap_tohoku
+ 80 HR01006 2024072519 2024072600   5 40.0 140.19  108.0   2.45 51.09  179.1  31   919 Akita Ken    秋田県 5.0            True

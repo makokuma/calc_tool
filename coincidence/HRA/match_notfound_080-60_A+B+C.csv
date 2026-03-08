@@ -1,0 +1,9 @@
+df1_i,reason,df1_dtst,df1_dten,df1_lat,df1_lon,df1_hrid
+0,time ok but no position candidates,2002071011,2002071016,38.1,141.62,
+4,no time candidates,2019101215,2019101220,39.8,142.0,
+15,time ok but no position candidates,2013080906,2013080912,40.3,140.38,
+23,time ok but no position candidates,2018080511,2018080516,38.95,139.94,
+24,time ok but no position candidates,2018080522,2018080605,38.65,140.12,
+26,no time candidates,2019101214,2019101301,39.85,141.94,
+27,time ok but no position candidates,2022080315,2022080321,37.6,140.19,
+31,time&pos ok but overlap/center fail,2024072507,2024072514,39.0,139.94,HR00639
