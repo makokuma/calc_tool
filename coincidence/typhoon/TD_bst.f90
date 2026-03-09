@@ -85,10 +85,59 @@ contains
         r%landfall  = safe_slice(line, 64, 64)
     end subroutine read_bst_data
 
-    subroutine intp_1h()
+    subroutine interp_bst_1h(r0, r1, dt, r_out)
+        type(bst_record_type), intent(in) :: r0, r1
+        integer, intent (in) :: dt
+        type(bst_record_type), intent(out) :: r_out
+
+        real :: w
+
+         if (dt < 0 .or. dt > 6) then
+            print *, 'interp_bst_1h error: dt must be 0-6'
+            stop
+        end if
+
+        w = real(dt) / 6.0
+
+        !other type letter
+        r_out%ymdh      = r0%ymdh
+        r_out%indicator = r0%indicator
+        r_out%grade     = r0%grade
+        r_out%landfall  = r0%landfall
+
+        !linear interp
+        r_out%lat  = r0%lat  + (r1%lat  - r0%lat ) * w
+        r_out%lon  = r0%lon  + (r1%lon  - r0%lon ) * w
+        r_out%pres = nint(real(r0%pres) + real(r1%pres - r0%pres) * w)
+
+        ! optional
+        if (r0%wind >= 0 .and. r1%wind >= 0) then
+            r_out%wind = nint(real(r0%wind) + real(r1%wind - r0%wind) * w)
+        else
+            r_out%wind = r0%wind
+        end if
+
+        if (r0%dir50 >= 0 .and. r1%dir50 >= 0) then
+            r_out%dir50   = r0%dir50
+            r_out%long50  = nint(real(r0%long50 ) + real(r1%long50  - r0%long50 ) * w)
+            r_out%short50 = nint(real(r0%short50) + real(r1%short50 - r0%short50) * w)
+        else
+            r_out%dir50   = r0%dir50
+            r_out%long50  = r0%long50
+            r_out%short50 = r0%short50
+        end if
+
+        if (r0%dir30 >= 0 .and. r1%dir30 >= 0) then
+            r_out%dir30   = r0%dir30
+            r_out%long30  = nint(real(r0%long30 ) + real(r1%long30  - r0%long30 ) * w)
+            r_out%short30 = nint(real(r0%short30) + real(r1%short30 - r0%short30) * w)
+        else
+            r_out%dir30   = r0%dir30
+            r_out%long30  = r0%long30
+            r_out%short30 = r0%short30
+        end if
+    end subroutine interp_bst_1h
 
 
-
-    end subroutine intp_1h
 
 end module TD_bst
