@@ -106,4 +106,36 @@ contains
         val = trim(fields(idx))
     end function get_field
 
+    subroutine open_txt(filename, unit, ios)
+        character(len=*), intent(in)  :: filename
+        integer, intent(out) :: unit
+        integer, intent(out) :: ios
+
+        open(newunit=unit, file=trim(filename), status='old', action='read', iostat=ios)
+    end subroutine open_txt
+
+    subroutine read_line(unit, line, ios)
+        integer, intent(in) :: unit
+        character(len=*), intent(out) :: line
+        integer, intent(out) :: ios
+
+        read(unit, '(A)', iostat=ios) line
+    end subroutine read_line
+
+    function to_int(str, default) result(val)
+        character(len=*), intent(in) :: str
+        integer, intent(in), optional :: default
+        integer :: val, ios
+
+        read(str, *, iostat=ios) val
+        if (ios /= 0) then
+            if (present(default)) then
+                val = default
+            else
+                val = -999
+            end if
+        end if
+    end function to_int
+
+
 end module inout
