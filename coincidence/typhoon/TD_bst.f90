@@ -85,6 +85,37 @@ contains
         r%landfall  = safe_slice(line, 64, 64)
     end subroutine read_bst_data
 
+    !function for correction lon
+    real function wrap_lon_360(lon)
+        real, intent(in) :: lon
+
+        wrap_lon_360 = lon
+        do while (wrap_lon_360 < 0.0)
+            wrap_lon_360 = wrap_lon_360 + 360.0
+        end do
+        do while (wrap_lon_360 >= 360.0)
+            wrap_lon_360 = wrap_lon_360 - 360.0
+        end do
+    end function wrap_lon_360
+
+    real function interp_lon_short(lon0, lon1, w)
+        real, intent(in) :: lon0, lon1, w
+        real :: a0, a1, dlon
+
+        a0 = wrap_lon_360(lon0)
+        a1 = wrap_lon_360(lon1)
+
+        dlon = a1 - a0
+
+        if (dlon > 180.0) then
+            dlon = dlon - 360.0
+        elseif (dlon < -180.0) then
+            dlon = dlon + 360.0
+        end if
+
+        interp_lon_short = wrap_lon_360(a0 + dlon * w)
+    end function interp_lon_short
+
     subroutine interp_bst_1h(r0, r1, dt, r_out)
         type(bst_record_type), intent(in) :: r0, r1
         integer, intent (in) :: dt
@@ -107,7 +138,8 @@ contains
 
         !linear interp
         r_out%lat  = r0%lat  + (r1%lat  - r0%lat ) * w
-        r_out%lon  = r0%lon  + (r1%lon  - r0%lon ) * w
+!        r_out%lon  = r0%lon  + (r1%lon  - r0%lon ) * w
+        r_out%lon  = interp_lon_short(r0%lon, r1%lon, w)
         r_out%pres = nint(real(r0%pres) + real(r1%pres - r0%pres) * w)
 
         ! optional
@@ -137,6 +169,20 @@ contains
             r_out%short30 = r0%short30
         end if
     end subroutine interp_bst_1h
+
+    logical function is_bst_data_line(line)
+        character(len=*), intent(in) :: line
+        integer :: i
+
+        is_bst_data_line = .false.
+        if (len_trim(line) < 28) return
+
+        do i = 1, 8
+            if (line(i:i) < '0' .or. line(i:i) > '9') return
+        end do
+
+        is_bst_data_line = .true.
+    end function is_bst_data_line
 
 
 
