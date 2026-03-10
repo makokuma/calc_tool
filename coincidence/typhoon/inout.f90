@@ -137,5 +137,31 @@ contains
         end if
     end function to_int
 
+    function field_to_real(fields, nfields, idx, default) result(val)
+    character(len=*), intent(in) :: fields(:)
+    integer, intent(in) :: nfields, idx
+    real, intent(in), optional :: default
+    real :: val
+    integer :: ios
+
+    if (idx < 1 .or. idx > nfields) then
+        if (present(default)) then
+            val = default
+        else
+            val = -999.0
+        end if
+        return
+    end if
+
+    read(fields(idx), *, iostat=ios) val
+    if (ios /= 0) then
+        if (present(default)) then
+            val = default
+        else
+            val = -999.0
+        end if
+    end if
+    end function field_to_real
+
 
 end module inout
