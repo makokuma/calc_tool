@@ -31,6 +31,14 @@ module TD_bst
         character(len=1) :: landfall = ''
     end type bst_record_type
 
+    type :: bst1h_record_type
+        character(len=8) :: ymdh = ''
+        real :: lat = -999.0
+        real :: lon = -999.0
+        integer :: pres = -999
+        logical :: is_header = .false.
+    end type bst1h_record_type
+
 contains
 
     function safe_slice(line, i1, i2) result(out)
@@ -184,6 +192,37 @@ contains
         is_bst_data_line = .true.
     end function is_bst_data_line
 
+    logical function is_bst1h_header(line)
+        character(len=*), intent(in) :: line
 
+        is_bst1h_header = .false.
+        if (len_trim(line) < 5) return
+        if (line(1:5) == '66666') is_bst1h_header = .true.
+    end function is_bst1h_header
+
+    subroutine parse_bst1h_line(line, rec, ios)
+        character(len=*), intent(in) :: line
+        type(bst1h_record_type), intent(out) :: rec
+        integer, intent(out) :: ios
+
+        rec%ymdh = ''
+        rec%lat = -999.0
+        rec%lon = -999.0
+        rec%pres = -999
+        rec%is_header = .false.
+        ios = 0
+
+        if (len_trim(line) == 0) then
+            ios = 1
+            return
+        end if
+
+        if (is_bst1h_header(line)) then
+            rec%is_header = .true.
+            return
+        end if
+
+        read(line, *, iostat=ios) rec%ymdh, rec%lat, rec%lon, rec%pres
+    end subroutine parse_bst1h_line
 
 end module TD_bst
