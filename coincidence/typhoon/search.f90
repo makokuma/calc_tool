@@ -1,5 +1,5 @@
 module search
-    use inout, only: open_csv, read_csv_row, to_int, field_to_real, STRLEN
+    use inout, only: open_csv, read_csv_row, to_int, field_to_real, STRLEN, find_column
     implicit none
 
 contains
@@ -57,6 +57,77 @@ contains
 
         if(ios /= 999) ios = 0
     end subroutine search_hrid
+
+    subroutine search_hrid_stats(stats_file, target_hrid, found, &
+                                 r1max, r3max, rtmax, racc, r1mean, r3mean, rtmean, ios)
+        character(len=*), intent(in) :: stats_file
+        character(len=*), intent(in) :: target_hrid
+        logical, intent(out) :: found
+        real, intent(out) :: r1max, r3max, rtmax, racc, r1mean, r3mean, rtmean
+        integer, intent(out) :: ios
+
+        integer :: unit, nheader, nfields
+        integer :: col_hrid, col_r1max, col_r3max, col_rtmax
+        integer :: col_racc, col_r1mean, col_r3mean, col_rtmean
+        character(len=STRLEN), allocatable :: header(:), fields(:)
+
+        found = .false.
+        r1max  = -999.0
+        r3max  = -999.0
+        rtmax  = -999.0
+        racc   = -999.0
+        r1mean = -999.0
+        r3mean = -999.0
+        rtmean = -999.0
+        ios = 0
+
+        call open_csv(stats_file, unit, ios)
+        if (ios /= 0) return
+
+        ! header
+        call read_csv_row(unit, header, nheader, ios)
+        if (ios /= 0) then
+            close(unit)
+            return
+        end if
+
+        col_hrid   = find_column(header, nheader, 'hrid')
+        col_r1max  = find_column(header, nheader, 'r1max')
+        col_r3max  = find_column(header, nheader, 'r3max')
+        col_rtmax  = find_column(header, nheader, 'rtmax')
+        col_racc   = find_column(header, nheader, 'racc')
+        col_r1mean = find_column(header, nheader, 'r1mean')
+        col_r3mean = find_column(header, nheader, 'r3mean')
+        col_rtmean = find_column(header, nheader, 'rtmean')
+
+        if (col_hrid < 1) then
+            ios = 999
+            close(unit)
+            return
+        end if
+
+        do
+            call read_csv_row(unit, fields, nfields, ios)
+            if (ios /= 0) exit
+
+            if (trim(fields(col_hrid)) /= trim(target_hrid)) cycle
+
+            found = .true.
+
+            if (col_r1max  > 0) r1max  = field_to_real(fields, nfields, col_r1max,  -999.0)
+            if (col_r3max  > 0) r3max  = field_to_real(fields, nfields, col_r3max,  -999.0)
+            if (col_rtmax  > 0) rtmax  = field_to_real(fields, nfields, col_rtmax,  -999.0)
+            if (col_racc   > 0) racc   = field_to_real(fields, nfields, col_racc,   -999.0)
+            if (col_r1mean > 0) r1mean = field_to_real(fields, nfields, col_r1mean, -999.0)
+            if (col_r3mean > 0) r3mean = field_to_real(fields, nfields, col_r3mean, -999.0)
+            if (col_rtmean > 0) rtmean = field_to_real(fields, nfields, col_rtmean, -999.0)
+
+            exit
+        end do
+
+        close(unit)
+        ios = 0
+    end subroutine search_hrid_stats
 
 end module search
 
