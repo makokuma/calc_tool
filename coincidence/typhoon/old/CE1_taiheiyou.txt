@@ -1,0 +1,390 @@
+YEARS = 2000 2002 2007 2008 2009 2012 2013 2015 2016 2017 2019 2023 dtst
+=======================================
+YEAR    = 2000
+fort.400 -> /mnt/jet12/makoto/extract_senjo/ext_sun_re/csv/100-80/05d3/100-80/20000401-1031/ra03_5000m_recollect_100-80_040.csv
+fort.200 -> /mnt/jet12/makoto/extract_senjo/ext_sun_re/csv/rastat/20000401-1031/linear-stationary_hras_stat_100-80_040.csv
+ ========================================
+ HRID      = HR00171
+ nt        =            9
+ CE1       =            1
+ min_dist  =    97.82760    
+ best_time = 00070807
+ ty_latlon =    38.80000       142.4670    
+ best_pres =          975
+ ========================================
+ HRA stat info
+ ========================================
+ r1max  =    85.00000    
+ r3max  =    170.0000    
+ rtmax  =    517.0000    
+ racc   =    33454.00    
+ r1mean =    36.26000    
+ r3mean =    87.36000    
+ rtmean =    312.6500    
+ ========================================
+ CE1_r3max =    1.000000    
+=======================================
+YEAR    = 2002
+fort.400 -> /mnt/jet12/makoto/extract_senjo/ext_sun_re/csv/100-80/05d3/100-80/20020401-1031/ra03_5000m_recollect_100-80_040.csv
+fort.200 -> /mnt/jet12/makoto/extract_senjo/ext_sun_re/csv/rastat/20020401-1031/linear-stationary_hras_stat_100-80_040.csv
+ ========================================
+ HRID      = HR00294
+ nt        =            3
+ CE1       =            1
+ min_dist  =    199.8827    
+ best_time = 02071105
+ ty_latlon =    39.58300       142.5500    
+ best_pres =          979
+ ========================================
+ HRA stat info
+ ========================================
+ r1max  =    80.00000    
+ r3max  =    172.0000    
+ rtmax  =    195.0000    
+ racc   =    26578.40    
+ r1mean =    46.73000    
+ r3mean =    81.89000    
+ rtmean =    122.4800    
+ ========================================
+ CE1_r3max =    1.000000    
+ ========================================
+ HRID      = HR00282
+ nt        =            3
+ CE1       =            1
+ min_dist  =    371.0579    
+ best_time = 02071016
+ ty_latlon =    35.10000       139.9330    
+ best_pres =          970
+ ========================================
+ HRA stat info
+ ========================================
+ r1max  =    52.00000    
+ r3max  =    120.0000    
+ rtmax  =    175.0000    
+ racc   =    7702.000    
+ r1mean =    48.23000    
+ r3mean =    86.30000    
+ rtmean =    142.6300    
+ ========================================
+ CE1_r3max =    1.000000    
+=======================================
+YEAR    = 2007
+fort.400 -> /mnt/jet12/makoto/extract_senjo/ext_sun_re/csv/100-80/05d3/100-80/20070401-1031/ra03_5000m_recollect_100-80_040.csv
+fort.200 -> /mnt/jet12/makoto/extract_senjo/ext_sun_re/csv/rastat/20070401-1031/linear-stationary_hras_stat_100-80_040.csv
+ ========================================
+ HRID      = HR00461
+ nt        =            3
+ CE1       =            0
+ min_dist  =    686.5426    
+ best_time = 07090600
+ ty_latlon =    32.00000       138.4000    
+ best_pres =          965
+ ========================================
+ HRA stat info
+ ========================================
+ r1max  =    68.20000    
+ r3max  =    152.5300    
+ rtmax  =    178.2000    
+ racc   =    4635.900    
+ r1mean =    51.15000    
+ r3mean =    87.95000    
+ rtmean =    128.7700    
+ ========================================
+ CE1_r3max =    1.000000    
+ ========================================
+ HRID      = HR00478
+ nt        =            5
+ CE1       =            1
+ min_dist  =    77.98683    
+ best_time = 07090708
+ ty_latlon =    39.61700       140.1330    
+ best_pres =          988
+ ========================================
+ HRA stat info
+ ========================================
+ r1max  =    59.27000    
+ r3max  =    157.6700    
+ rtmax  =    315.9300    
+ racc   =    7828.330    
+ r1mean =    37.23000    
+ r3mean =    85.46000    
+ rtmean =    186.3900    
+ ========================================
+ CE1_r3max =    1.000000    
+=======================================
+YEAR    = 2008
+fort.400 -> /mnt/jet12/makoto/extract_senjo/ext_sun_re/csv/100-80/05d3/100-80/20080401-1031/ra03_5000m_recollect_100-80_040.csv
+fort.200 -> /mnt/jet12/makoto/extract_senjo/ext_sun_re/csv/rastat/20080401-1031/linear-stationary_hras_stat_100-80_040.csv
+ ========================================
+ HRID      = HR00346
+ nt        =            3
+ CE1       =           -1
+ min_dist  =   1.0000000E+30
+ best_time = 
+ ty_latlon =   -999.0000      -999.0000    
+ best_pres =         -999
+ ========================================
+ HRA stat info
+ ========================================
+ r1max  =    69.53000    
+ r3max  =    165.0000    
+ rtmax  =    198.8000    
+ racc   =    6941.030    
+ r1mean =    57.00000    
+ r3mean =    96.51000    
+ rtmean =    141.6500    
+ ========================================
+ CE1_r3max =    1.000000    
+=======================================
+YEAR    = 2009
+fort.400 -> /mnt/jet12/makoto/extract_senjo/ext_sun_re/csv/100-80/05d3/100-80/20090401-1031/ra03_5000m_recollect_100-80_040.csv
+fort.200 -> /mnt/jet12/makoto/extract_senjo/ext_sun_re/csv/rastat/20090401-1031/linear-stationary_hras_stat_100-80_040.csv
+ ========================================
+ HRID      = HR00299
+ nt        =            4
+ CE1       =            1
+ min_dist  =    58.82703    
+ best_time = 09100806
+ ty_latlon =    37.75000       140.4500    
+ best_pres =          980
+ ========================================
+ HRA stat info
+ ========================================
+ r1max  =    66.27000    
+ r3max  =    150.1300    
+ rtmax  =    206.9300    
+ racc   =    11863.07    
+ r1mean =    41.37000    
+ r3mean =    87.34000    
+ rtmean =    156.0900    
+ ========================================
+ CE1_r3max =    1.000000    
+=======================================
+YEAR    = 2012
+fort.400 -> /mnt/jet12/makoto/extract_senjo/ext_sun_re/csv/100-80/05d3/100-80/20120401-1031/ra03_5000m_recollect_100-80_040.csv
+fort.200 -> /mnt/jet12/makoto/extract_senjo/ext_sun_re/csv/rastat/20120401-1031/linear-stationary_hras_stat_100-80_040.csv
+ ========================================
+ HRID      = HR00578
+ nt        =            3
+ CE1       =            1
+ min_dist  =    387.5618    
+ best_time = 12100101
+ ty_latlon =    41.46700       143.9670    
+ best_pres =          988
+ ========================================
+ HRA stat info
+ ========================================
+ r1max  =    79.00000    
+ r3max  =    165.8700    
+ rtmax  =    201.4700    
+ racc   =    14810.08    
+ r1mean =    52.30000    
+ r3mean =    90.49000    
+ rtmean =    132.2300    
+ ========================================
+ CE1_r3max =    1.000000    
+=======================================
+YEAR    = 2013
+fort.400 -> /mnt/jet12/makoto/extract_senjo/ext_sun_re/csv/100-80/05d3/100-80/20130401-1031/ra03_5000m_recollect_100-80_040.csv
+fort.200 -> /mnt/jet12/makoto/extract_senjo/ext_sun_re/csv/rastat/20130401-1031/linear-stationary_hras_stat_100-80_040.csv
+ ========================================
+ HRID      = HR00240
+ nt        =            5
+ CE1       =            0
+ min_dist  =    3015.722    
+ best_time = 13080910
+ ty_latlon =    13.50000       132.9330    
+ best_pres =         1004
+ ========================================
+ HRA stat info
+ ========================================
+ r1max  =    94.00000    
+ r3max  =    207.2700    
+ rtmax  =    334.6000    
+ racc   =    15290.59    
+ r1mean =    40.46000    
+ r3mean =    88.77000    
+ rtmean =    182.0300    
+ ========================================
+ CE1_r3max =    1.000000    
+=======================================
+YEAR    = 2015
+fort.400 -> /mnt/jet12/makoto/extract_senjo/ext_sun_re/csv/100-80/05d3/100-80/20150401-1031/ra03_5000m_recollect_100-80_040.csv
+fort.200 -> /mnt/jet12/makoto/extract_senjo/ext_sun_re/csv/rastat/20150401-1031/linear-stationary_hras_stat_100-80_040.csv
+ ========================================
+ HRID      = HR00428
+ nt        =            7
+ CE1       =            1
+ min_dist  =    345.2607    
+ best_time = 15091104
+ ty_latlon =    40.33300       137.4000    
+ best_pres =         1000
+ ========================================
+ HRA stat info
+ ========================================
+ r1max  =    70.27000    
+ r3max  =    151.1300    
+ rtmax  =    316.6000    
+ racc   =    24990.00    
+ r1mean =    28.64000    
+ r3mean =    70.67000    
+ rtmean =    193.7200    
+ ========================================
+ CE1_r3max =    1.000000    
+=======================================
+YEAR    = 2016
+fort.400 -> /mnt/jet12/makoto/extract_senjo/ext_sun_re/csv/100-80/05d3/100-80/20160401-1031/ra03_5000m_recollect_100-80_040.csv
+fort.200 -> /mnt/jet12/makoto/extract_senjo/ext_sun_re/csv/rastat/20160401-1031/linear-stationary_hras_stat_100-80_040.csv
+ ========================================
+ HRID      = HR00438
+ nt        =            3
+ CE1       =            1
+ min_dist  =    387.7132    
+ best_time = 16083017
+ ty_latlon =    41.88300       138.3330    
+ best_pres =          975
+ ========================================
+ HRA stat info
+ ========================================
+ r1max  =    98.67000    
+ r3max  =    179.8000    
+ rtmax  =    215.8700    
+ racc   =    20969.23    
+ r1mean =    44.83000    
+ r3mean =    87.79000    
+ rtmean =    132.7200    
+ ========================================
+ CE1_r3max =    1.000000    
+ ========================================
+ HRID      = HR00475
+ nt        =            3
+ CE1       =           -1
+ min_dist  =   1.0000000E+30
+ best_time = 
+ ty_latlon =   -999.0000      -999.0000    
+ best_pres =         -999
+ ========================================
+ HRA stat info
+ ========================================
+ r1max  =    65.87000    
+ r3max  =    142.6700    
+ rtmax  =    182.6700    
+ racc   =    5812.800    
+ r1mean =    48.92000    
+ r3mean =    90.36000    
+ rtmean =    132.1100    
+ ========================================
+ CE1_r3max =    1.000000    
+=======================================
+YEAR    = 2017
+fort.400 -> /mnt/jet12/makoto/extract_senjo/ext_sun_re/csv/100-80/05d3/100-80/20170401-1031/ra03_5000m_recollect_100-80_040.csv
+fort.200 -> /mnt/jet12/makoto/extract_senjo/ext_sun_re/csv/rastat/20170401-1031/linear-stationary_hras_stat_100-80_040.csv
+ ========================================
+ HRID      = HR00453
+ nt        =            4
+ CE1       =            1
+ min_dist  =    321.1562    
+ best_time = 17091801
+ ty_latlon =    41.80000       140.3000    
+ best_pres =          976
+ ========================================
+ HRA stat info
+ ========================================
+ r1max  =    69.67000    
+ r3max  =    144.2700    
+ rtmax  =    189.5300    
+ racc   =    9640.600    
+ r1mean =    37.79000    
+ r3mean =    81.89000    
+ rtmean =    139.7200    
+ ========================================
+ CE1_r3max =    1.000000    
+=======================================
+YEAR    = 2019
+fort.400 -> /mnt/jet12/makoto/extract_senjo/ext_sun_re/csv/100-80/05d3/100-80/20190401-1031/ra03_5000m_recollect_100-80_040.csv
+fort.200 -> /mnt/jet12/makoto/extract_senjo/ext_sun_re/csv/rastat/20190401-1031/linear-stationary_hras_stat_100-80_040.csv
+ ========================================
+ HRID      = HR00453
+ nt        =            4
+ CE1       =            0
+ min_dist  =    3512.741    
+ best_time = 19082802
+ ty_latlon =    16.53300       116.8670    
+ best_pres =          997
+ ========================================
+ HRA stat info
+ ========================================
+ r1max  =    61.93000    
+ r3max  =    138.6700    
+ rtmax  =    192.0000    
+ racc   =    6617.910    
+ r1mean =    36.94000    
+ r3mean =    74.77000    
+ rtmean =    140.8100    
+ ========================================
+ CE1_r3max =    1.000000    
+ ========================================
+ HRID      = HR00582
+ nt        =           11
+ CE1       =            1
+ min_dist  =    76.01716    
+ best_time = 19101220
+ ty_latlon =    37.98300       141.6000    
+ best_pres =          974
+ ========================================
+ HRA stat info
+ ========================================
+ r1max  =    110.0000    
+ r3max  =    263.6000    
+ rtmax  =    504.3300    
+ racc   =    299664.7    
+ r1mean =    23.86000    
+ r3mean =    66.23000    
+ rtmean =    266.3700    
+ ========================================
+ CE1_r3max =    1.000000    
+ ========================================
+ HRID      = HR00583
+ nt        =            3
+ CE1       =            1
+ min_dist  =    184.1327    
+ best_time = 19101218
+ ty_latlon =    37.55000       141.2000    
+ best_pres =          973
+ ========================================
+ HRA stat info
+ ========================================
+ r1max  =    62.73000    
+ r3max  =    175.2700    
+ rtmax  =    175.5200    
+ racc   =    31097.30    
+ r1mean =    36.27000    
+ r3mean =    53.92000    
+ rtmean =    81.19000    
+ ========================================
+ CE1_r3max =    1.000000    
+=======================================
+YEAR    = 2023
+fort.400 -> /mnt/jet12/makoto/extract_senjo/ext_sun_re/csv/100-80/05d3/100-80/20230401-1031/ra03_5000m_recollect_100-80_040.csv
+fort.200 -> /mnt/jet12/makoto/extract_senjo/ext_sun_re/csv/rastat/20230401-1031/linear-stationary_hras_stat_100-80_040.csv
+ ========================================
+ HRID      = HR00569
+ nt        =            3
+ CE1       =            0
+ min_dist  =    1156.052    
+ best_time = 23081208
+ ty_latlon =    28.96700       141.1670    
+ best_pres =          952
+ ========================================
+ HRA stat info
+ ========================================
+ r1max  =    84.40000    
+ r3max  =    156.4700    
+ rtmax  =    174.2700    
+ racc   =    6208.730    
+ r1mean =    48.58000    
+ r3mean =    91.20000    
+ rtmean =    132.1000    
+ ========================================
+ CE1_r3max =    1.000000    
+skip: file not found -> /mnt/jet12/makoto/extract_senjo/ext_sun_re/csv/100-80/05d3/100-80/dtst0401-1031/ra03_5000m_recollect_100-80_040.csv

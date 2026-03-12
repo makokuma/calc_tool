@@ -1,0 +1,156 @@
+YEARS = 2013 2017 2018 2019 2022 2024 dtst
+=======================================
+YEAR    = 2013
+fort.400 -> /mnt/jet12/makoto/extract_senjo/ext_sun_re/csv/100-80/05d3/100-80/20130401-1031/ra03_5000m_recollect_100-80_040.csv
+ ========================================
+ HRID      = HR00180
+ nt        =            3
+ CE1       =           -1
+ min_dist  =   1.0000000E+30
+ best_time = 
+ ty_latlon =   -999.0000      -999.0000    
+ best_pres =         -999
+ ========================================
+ HRID      = HR00235
+ nt        =            4
+ CE1       =            0
+ min_dist  =    3066.219    
+ best_time = 13080909
+ ty_latlon =    13.50000       133.1000    
+ best_pres =         1004
+=======================================
+YEAR    = 2017
+fort.400 -> /mnt/jet12/makoto/extract_senjo/ext_sun_re/csv/100-80/05d3/100-80/20170401-1031/ra03_5000m_recollect_100-80_040.csv
+ ========================================
+ HRID      = HR00278
+ nt        =            5
+ CE1       =            0
+ min_dist  =    1595.483    
+ best_time = 17072218
+ ty_latlon =    28.60000       151.9000    
+ best_pres =          990
+ ========================================
+ HRID      = HR00279
+ nt        =            4
+ CE1       =            0
+ min_dist  =    1620.551    
+ best_time = 17072304
+ ty_latlon =    28.16700       151.2670    
+ best_pres =          982
+=======================================
+YEAR    = 2018
+fort.400 -> /mnt/jet12/makoto/extract_senjo/ext_sun_re/csv/100-80/05d3/100-80/20180401-1031/ra03_5000m_recollect_100-80_040.csv
+ ========================================
+ HRID      = HR00342
+ nt        =            3
+ CE1       =            0
+ min_dist  =    1656.694    
+ best_time = 18080516
+ ty_latlon =    25.26700       146.9000    
+ best_pres =          970
+ ========================================
+ HRID      = HR00347
+ nt        =            5
+ CE1       =            0
+ min_dist  =    1368.901    
+ best_time = 18080605
+ ty_latlon =    27.33300       146.0330    
+ best_pres =          970
+ ========================================
+ HRID      = HR00349
+ nt        =            3
+ CE1       =            0
+ min_dist  =    1443.121    
+ best_time = 18080602
+ ty_latlon =    26.83300       146.1330    
+ best_pres =          970
+=======================================
+YEAR    = 2019
+fort.400 -> /mnt/jet12/makoto/extract_senjo/ext_sun_re/csv/100-80/05d3/100-80/20190401-1031/ra03_5000m_recollect_100-80_040.csv
+ ========================================
+ HRID      = HR00401
+ nt        =            4
+ CE1       =            0
+ min_dist  =    1676.941    
+ best_time = 19081006
+ ty_latlon =    40.00000       159.2000    
+ best_pres =         1006
+=======================================
+YEAR    = 2022
+fort.400 -> /mnt/jet12/makoto/extract_senjo/ext_sun_re/csv/100-80/05d3/100-80/20220401-1031/ra03_5000m_recollect_100-80_040.csv
+ ========================================
+ HRID      = HR00862
+ nt        =            3
+ CE1       =            0
+ min_dist  =    1790.887    
+ best_time = 22080909
+ ty_latlon =    24.75000       143.6500    
+ best_pres =         1008
+ ========================================
+ HRID      = HR00818
+ nt        =            4
+ CE1       =           -1
+ min_dist  =   1.0000000E+30
+ best_time = 
+ ty_latlon =   -999.0000      -999.0000    
+ best_pres =         -999
+ ========================================
+ HRID      = HR00866
+ nt        =            3
+ CE1       =            0
+ min_dist  =    1728.491    
+ best_time = 22080914
+ ty_latlon =    24.96700       142.4000    
+ best_pres =         1007
+ ========================================
+ HRID      = HR00879
+ nt        =            4
+ CE1       =            0
+ min_dist  =    726.2805    
+ best_time = 22081301
+ ty_latlon =    33.91700       137.3330    
+ best_pres =          998
+ ========================================
+ HRID      = HR00809
+ nt        =            3
+ CE1       =           -1
+ min_dist  =   1.0000000E+30
+ best_time = 
+ ty_latlon =   -999.0000      -999.0000    
+ best_pres =         -999
+=======================================
+YEAR    = 2024
+fort.400 -> /mnt/jet12/makoto/extract_senjo/ext_sun_re/csv/100-80/05d3/100-80/20240401-1031/ra03_5000m_recollect_100-80_040.csv
+ ========================================
+ HRID      = HR00639
+ nt        =            5
+ CE1       =            0
+ min_dist  =    2458.581    
+ best_time = 24072510
+ ty_latlon =    25.33300       119.3670    
+ best_pres =          978
+ ========================================
+ HRID      = HR00642
+ nt        =            4
+ CE1       =            0
+ min_dist  =    2460.329    
+ best_time = 24072601
+ ty_latlon =    26.58300       118.2000    
+ best_pres =          986
+ ========================================
+ HRID      = HR00645
+ nt        =            3
+ CE1       =            0
+ min_dist  =    2534.417    
+ best_time = 24072522
+ ty_latlon =    26.16700       118.5000    
+ best_pres =          983
+ ========================================
+ HRID      = HR01035
+ nt        =            3
+ CE1       =            0
+ min_dist  =    1886.453    
+ best_time = 24092005
+ ty_latlon =    31.96700       120.4000    
+ best_pres =         1000
+skip: file not found -> /mnt/jet12/makoto/extract_senjo/ext_sun_re/csv/100-80/05d3/100-80/dtst0401-1031/ra03_5000m_recollect_100-80_040.csv
