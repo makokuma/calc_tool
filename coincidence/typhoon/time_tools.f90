@@ -117,6 +117,44 @@ contains
         call make_ymdh(year, month, day, hour, ymdh_out)
     end subroutine add_hours_ymdh
 
+    integer function hours_from_origin(year, month, day, hour)
+        integer, intent(in) :: year, month, day, hour
+        integer :: y, m
+
+        hours_from_origin = 0
+
+        do y = 1, year - 1
+            if (leap_year(y)) then
+                hours_from_origin = hours_from_origin + 366 * 24
+            else
+                hours_from_origin = hours_from_origin + 365 * 24
+            end if
+        end do
+
+        do m = 1, month - 1
+            hours_from_origin = hours_from_origin + days_in_month(year, m) * 24
+        end do
+
+        hours_from_origin = hours_from_origin + (day - 1) * 24 + hour
+    end function hours_from_origin
+
+    subroutine diff_hours_ymdh(ymdh1, ymdh2, dh)
+        character(len=*), intent(in) :: ymdh1, ymdh2
+        integer, intent(out) :: dh
+
+        integer :: y1, m1, d1, h1
+        integer :: y2, m2, d2, h2
+        integer :: t1, t2
+
+        call parse_ymdh(trim(ymdh1), y1, m1, d1, h1)
+        call parse_ymdh(trim(ymdh2), y2, m2, d2, h2)
+
+        t1 = hours_from_origin(y1, m1, d1, h1)
+        t2 = hours_from_origin(y2, m2, d2, h2)
+
+        dh = t2 - t1
+    end subroutine diff_hours_ymdh
+
 end module time_tools
 
 

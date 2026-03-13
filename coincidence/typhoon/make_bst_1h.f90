@@ -1,10 +1,10 @@
 program make_bst_1h
     use inout
     use TD_bst
-    use time_tools, only: add_hours_ymdh
+    use time_tools, only: add_hours_ymdh, diff_hours_ymdh
     implicit none
 
-    integer :: bst_data, data_out, ios, i, dt
+    integer :: bst_data, data_out, ios, i, dt, dh
     character(len=256) :: line, saved_header
     logical :: has_saved_header
     character(len=8) :: ymdh_out
@@ -94,9 +94,16 @@ program make_bst_1h
             end if
 
             call read_bst_data(line, r1)
+            
+            !avoid loop bug 3h int
+            call diff_hours_ymdh(r0%ymdh, r1%ymdh, dh)
 
-            do dt = 0, 5
-                call interp_bst_1h(r0, r1, dt, rint)
+            if (dh <= 0) cycle
+
+            do dt = 0, dh-1
+
+!            do dt = 0, 5
+                call interp_bst_1h(r0, r1, dt, dh, rint)
                 call add_hours_ymdh(r0%ymdh, dt, ymdh_out)
                 rint%ymdh = ymdh_out
 

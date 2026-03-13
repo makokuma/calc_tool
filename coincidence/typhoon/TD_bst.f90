@@ -124,19 +124,20 @@ contains
         interp_lon_short = wrap_lon_360(a0 + dlon * w)
     end function interp_lon_short
 
-    subroutine interp_bst_1h(r0, r1, dt, r_out)
+    subroutine interp_bst_1h(r0, r1, dt, dh, r_out)
         type(bst_record_type), intent(in) :: r0, r1
-        integer, intent (in) :: dt
+        integer, intent (in) :: dt, dh
         type(bst_record_type), intent(out) :: r_out
 
         real :: w
 
-         if (dt < 0 .or. dt > 6) then
+         if (dt < 0 .or. dt > dh) then
             print *, 'interp_bst_1h error: dt must be 0-6'
             stop
         end if
 
-        w = real(dt) / 6.0
+!        w = real(dt) / 6.0
+        w = real(dt) / real(dh)
 
         !other type letter
         r_out%ymdh      = r0%ymdh
